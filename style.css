@@ -1,0 +1,80 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+nav {
+  width: 220px;
+  background-color: #343a40;
+  color: white;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 40px;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav ul li {
+  margin: 20px 0;
+  text-align: center;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: #17a2b8;
+}
+.main-content {
+  margin-left: 240px;
+  padding: 40px;
+  flex: 1;
+}
+section {
+  margin-bottom: 40px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+.profile-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+.social-icons {
+  text-align: center;
+  margin: 10px 0;
+}
+.social-icons a {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: #007bff;
+}
+.cv-link {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  background: #007bff;
+  color: white;
+  padding: 0.6rem 1rem;
+  text-decoration: none;
+  border-radius: 6px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  color: #888;
+}
