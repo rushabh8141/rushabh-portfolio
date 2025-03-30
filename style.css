@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
@@ -53,29 +54,6 @@ section {
 .social-icons {
   text-align: center;
   margin: 10px 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #f4f4f4;
-  margin: 0;
-  padding: 0;
-  color: #333;
-}
-.container {
-  max-width: 960px;
-  margin: auto;
-  padding: 20px;
-}
-header {
-  text-align: center;
-  background: #ffffff;
-  padding: 2rem 1rem;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
-.profile-pic {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 1rem;
  d35170be71f255c8d8680f0f17307ca9aa772b35
 }
 .social-icons a {
@@ -101,29 +79,4 @@ footer {
   padding: 1rem;
   color: #888;
 }
-
-.btn-cv {
-  display: inline-block;
-  margin-top: 10px;
-  background: #007bff;
-  color: #fff;
-  padding: 0.6rem 1.2rem;
-  border-radius: 5px;
-  text-decoration: none;
-}
-section {
-  margin-top: 2rem;
-  background: white;
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 1px 6px rgba(0,0,0,0.05);
-}
-footer {
-  text-align: center;
-  margin-top: 2rem;
-  padding: 1rem;
-  background: #ffffff;
-  color: #999;
-}
- 05ff7ebdf964634b15c820a30b8531e9a275ff56
  d35170be71f255c8d8680f0f17307ca9aa772b35
