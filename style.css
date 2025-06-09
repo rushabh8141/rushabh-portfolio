@@ -54,7 +54,6 @@ section {
 .social-icons {
   text-align: center;
   margin: 10px 0;
- d35170be71f255c8d8680f0f17307ca9aa772b35
 }
 .social-icons a {
   margin: 0 10px;
@@ -79,4 +78,30 @@ footer {
   padding: 1rem;
   color: #888;
 }
- d35170be71f255c8d8680f0f17307ca9aa772b35
+
+/* Hero Section */
+#hero {
+  background: linear-gradient(to right, #4e54c8, #8f94fb);
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+#hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+#hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 0.7rem 1.2rem;
+  background: #343a40;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
